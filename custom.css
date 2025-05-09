@@ -1,5 +1,24 @@
+h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
 .form-control:focus{
     box-shadow: none;
+    background-color: rgb(218, 157, 157, 0.2);
+    color: white;
+    border-color: white;
+}
+
+.form-control{
+    background-color: rgb(218, 157, 157, 0.2);
+    color: white;
 
 }
 
+
+.container{
+    background-color: rgba(160, 138, 241, 0.7);
+    border: 10px;
+}
