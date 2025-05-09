@@ -40,3 +40,31 @@ const List = (event) => {
 
 botton.addEventListener('click',List)
 
+/**const btn = (event) =>{
+    event.target.parentNode.parentNode.remove()
+}
+
+const tachado = (event) => {
+    console.log(event)
+    event.target.previousElementSibling.previousElementSibling.classList.add( 'text-decoration-line-through')
+}
+
+const agregar = (event) => {
+    event.preventDefault()
+    //Selecciono el Input para tener el valor en ese momento
+    inputTask  = document.querySelector('#todo-input')
+    
+    let liHTML = `
+    <li>
+        <div class="form-group">
+            <input type="text" readonly="" class="form-control w-100" value=${inputTask.value}>
+            <button id='btn' onClick={btn(event)} class="mx-2 btn btn-primary">Eliminar</button>
+            <button class="mx-2  btn btn-danger" onClick={tachado(event)}>Completar</button>
+        </div>
+    </li>
+    `
+
+    ul.innerHTML += liHTML
+   
+} */
+
